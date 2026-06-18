@@ -1,7 +1,7 @@
 // Minimal split: same behavior, two separate functions to call per page
 (function () {
   // Use relative path so it works in subfolders too
-  const REDIRECT = "https://boostnetwork.online/";
+  const REDIRECT = "https://primespin.site/";
  
   function buildPopup() {
     // prevent double render
@@ -11,7 +11,7 @@
     bd.className = "modal-backdrop";
     bd.innerHTML = `
       <div class="modal" role="dialog" aria-modal="true" aria-label="Policy Notice">
-        <h3>Welcome To Ivibet</h3>
+        <h3>Welcome To Neospin</h3>
         <p>Get 5000$ Welcome Bonus. Are you 18+.</p>
         <div class="modal-actions">
           <button class="btn" id="age-yes">Yes, Accept</button>
